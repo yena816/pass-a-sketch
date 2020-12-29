@@ -10,4 +10,13 @@
     <string name="pass_a_sketch">pass-a-sketch</string>
     <string name="create_room">create room</string>
     <string name="join_room">join room</string>
+    <string name="name">name</string>
+    <string name="choose_teams">choose teams</string>
+    <string name="orange">orange</string>
+    <string name="blue">blue</string>
+    <string name="name3">name1</string>
+    <string name="name4">name3</string>
+    <string name="name5">name2</string>
+    <string name="name6">name4</string>
+    <string name="start_game">start game!</string>
 </resources>
