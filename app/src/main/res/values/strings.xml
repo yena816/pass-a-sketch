@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">pass-a-sketch</string>
+    <string name="join_game">join game</string>
+    <string name="enter_room_code">enter room code:</string>
+    <string name="room_code">room code</string>
+    <string name="pick_teams">pick teams</string>
+    <string name="room_code_abcde">room code: abcde</string>
+    <string name="name1">name1</string>
+    <string name="name2">name2</string>
+    <string name="pass_a_sketch">pass-a-sketch</string>
+    <string name="create_room">create room</string>
+    <string name="join_room">join room</string>
 </resources>

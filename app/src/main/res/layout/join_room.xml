@@ -4,32 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gold"
-    tools:context=".MainActivity">
+    android:background="@color/gold">
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/enterRoomCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
-        android:text="@string/pass_a_sketch"
+        android:text="@string/enter_room_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/dark_blue"
-        android:textSize="38sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.198" />
+        app:layout_constraintVertical_bias="0.256" />
+
+    <EditText
+        android:id="@+id/enterCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="textPersonName"
+        android:hint="@string/room_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/goToCreateRoom"
-        android:layout_width="147dp"
-        android:layout_height="48dp"
-        android:background="#E40066"
+        android:id="@+id/goToCreateRoom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="casual"
-        android:text="@string/create_room"
+        android:text="@string/join_game"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textStyle="bold"
         app:backgroundTint="@color/hot_pink"
@@ -37,22 +50,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
-
-    <Button
-        android:id="@+id/goToJoinRoom"
-        android:layout_width="147dp"
-        android:layout_height="48dp"
-        android:background="#E40066"
-        android:fontFamily="casual"
-        android:text="@string/join_room"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        app:backgroundTint="@color/hot_pink"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
-
+        app:layout_constraintVertical_bias="0.655" />
 </androidx.constraintlayout.widget.ConstraintLayout>
