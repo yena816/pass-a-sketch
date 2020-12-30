@@ -19,4 +19,9 @@
     <string name="name5">name2</string>
     <string name="name6">name4</string>
     <string name="start_game">start game!</string>
+    <string name="draw_the_prompt">draw the prompt</string>
+    <string name="prompt_rhino">prompt: rhino</string>
+    <string name="_10">10</string>
+    <string name="draw_what_you_saw">draw what you saw</string>
+    <string name="here_s_what_the_last_person_drew">here\'s what the last person drew:</string>
 </resources>
