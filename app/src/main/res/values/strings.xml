@@ -23,5 +23,6 @@
     <string name="prompt_rhino">prompt: rhino</string>
     <string name="_10">10</string>
     <string name="draw_what_you_saw">draw what you saw</string>
-    <string name="here_s_what_the_last_person_drew">here\'s what the last person drew:</string>
+    <string name="the_last_person_drew_this">this is what the last person drew:</string>
+    <string name="guess">guess</string>
 </resources>
