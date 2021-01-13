@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CreateRoom" />
+        <activity android:name=".JoinRoom"/>
+        <activity android:name=".FirstDraw"/>
+        <activity android:name=".PickTeams"/>
+
     </application>
 
 </manifest>
